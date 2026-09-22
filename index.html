@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minicake.uz — Professional Confectionery</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>Minicake.uz</h1>
+        <p>Mualliflik va premium shirinliklar uyi</p>
+    </header>
+
+    <main class="catalog-container">
+        
+        <!-- KATEGORIYA TUGMALARI (Ikonlar o'rniga zamonaviy indikatorlar) -->
+        <div class="categories-nav">
+            <button class="cat-btn active" data-category="birthday">
+                <span class="indicator"></span> Tug'ilgan kun
+            </button>
+            <button class="cat-btn" data-category="holidays">
+                <span class="indicator"></span> Bayramlar
+            </button>
+            <button class="cat-btn" data-category="weddings">
+                <span class="indicator"></span> To'ylar
+            </button>
+        </div>
+
+        <!-- MAHSULOTLAR RO'YXATI -->
+        <div class="products-wrapper">
+            
+            <!-- 1. TUG'ILGAN KUN UCHUN -->
+            <div class="product-grid active-grid" data-content="birthday">
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&auto=format&fit=crop&q=80" alt="Mevali Tort">
+                    </div>
+                    <div class="product-content">
+                        <h3>Mevali Premium Tort</h3>
+                        <p class="description">Nozik biskvit, maxsus krem va yangi saralangan mevalar.</p>
+                        <div class="card-footer">
+                            <span class="price">180 000 so'm</span>
+                            <button class="order-btn">Tanlash</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&auto=format&fit=crop&q=80" alt="Shokoladli Tort">
+                    </div>
+                    <div class="product-content">
+                        <h3>Shokoladli Delux</h3>
+                        <p class="description">Quyuq shokolad, findiq praline va yengil qaymoqli tansiq desert.</p>
+                        <div class="card-footer">
+                            <span class="price">210 000 so'm</span>
+                            <button class="order-btn">Tanlash</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=600&auto=format&fit=crop&q=80" alt="Chizkeyk">
+                    </div>
+                    <div class="product-content">
+                        <h3>Qulupnayli Chizkeyk</h3>
+                        <p class="description">Og'izda eriydigan pishloqli asos va tabiiy qulupnay toping.</p>
+                        <div class="card-footer">
+                            <span class="price">195 000 so'm</span>
+                            <button class="order-btn">Tanlash</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&auto=format&fit=crop&q=80" alt="Biskvitli Tort">
+                    </div>
+                    <div class="product-content">
+                        <h3>Malinali Biskvit</h3>
+                        <p class="description">Pushti va oq kremli, maxsus bolalar va kattalar bayrami uchun.</p>
+                        <div class="card-footer">
+                            <span class="price">185 000 so'm</span>
+                            <button class="order-btn">Tanlash</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. BAYRAMLAR UCHUN -->
+            <div class="product-grid" data-content="holidays">
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?w=600&auto=format&fit=crop&q=80" alt="Napoleon">
+                    </div>
+                    <div class="product-content">
+                        <h3>Napoleon Klassik</h3>
+                        <p class="description">Ming qatlamli yupqa xamir va maxsus vanilli qaymoqli krem.</p>
+                        <div class="card-footer">
+                            <span class="price">150 000 so'm</span>
+                            <button class="order-btn">Tanlash</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1535141192574-5d4897c13136?w=600&auto=format&fit=crop&q=80" alt="Qizil Velvet">
+                    </div>
+                    <div class="product-content">
+                        <h3>Qizil Velvet</h3>
+                        <p class="description">Yorqin va nozik biskvit qatlamlari, qaymoqli pishloqli kremli.</p>
+                        <div class="card-footer">
+                            <span class="price">205 000 so'm</span>
+                            <button class="order-btn">Tanlash</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1582293041000-4d9f67645f78?w=600&auto=format&fit=crop&q=80" alt="Karamelli Tort">
+                    </div>
+                    <div class="product-content">
+                        <h3>Karamelli Biskvit</h3>
+                        <p class="description">Uy qurilishi karameli va yong'oqli maxsus bayramona bezak.</p>
+                        <div class="card-footer">
+                            <span class="price">220 000 so'm</span>
+                            <button class="order-btn">Tanlash</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. TO'YLAR UCHUN -->
+            <div class="product-grid" data-content="weddings">
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&auto=format&fit=crop&q=80" alt="Oq Marosim Torti">
+                    </div>
+                    <div class="product-content">
+                        <h3>Oq Tantanali To'y Torti</h3>
+                        <p class="description">Ko'p qavatli oq marosim dizayni, yengil vanilli va qaymoqli to'ldirma.</p>
+                        <div class="card-footer">
+                            <span class="price">450 000 so'm</span>
+                            <button class="order-btn">Tanlash</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1535141192574-5d4897c13136?w=600&auto=format&fit=crop&q=80" alt="Klassik Oqshom">
+                    </div>
+                    <div class="product-content">
+                        <h3>Nafis Oqshom</h3>
+                        <p class="description">Maxsus to'y oqshomlari uchun bezatilgan, tabiiy masalliqlardan tort.</p>
+                        <div class="card-footer">
+                            <span class="price">390 000 so'm</span>
+                            <button class="order-btn">Tanlash</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1562440499-64c9a111f713?w=600&auto=format&fit=crop&q=80" alt="Qirollik To'y Torti">
+                    </div>
+                    <div class="product-content">
+                        <h3>Qirollik To'y Torti</h3>
+                        <p class="description">Hashamatli bezaklar, qatlamli biskvit va o'zgacha shohona ta'm.</p>
+                        <div class="card-footer">
+                            <span class="price">550 000 so'm</span>
+                            <button class="order-btn">Tanlash</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="navigation-footer">
+        <a href="https://t.me/minicake_uz_bot" target="_blank" class="return-link">Botga qaytish</a>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>

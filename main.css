@@ -29,7 +29,7 @@ body {
     color: #111;
     margin-bottom: 4px;
     background: linear-gradient(135deg, #111 0%, #444 100%);
-    -webkit-background-clip: text;
+   
     -webkit-text-fill-color: transparent;
 }
 
